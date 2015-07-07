@@ -1,6 +1,16 @@
 ### install-on-mac
 
 1. 安装VirtualBox-4.3.28-100309-OSX.dmg
-2. 删除通过pkg安装的docker版本,参考：
+2. 删除通过pkg安装的docker版本,参考:
 http://therealmarv.com/blog/how-to-fully-uninstall-the-offical-docker-os-x-installation/
-3. 
+3. 通过homebrew安装docker
+  $brew install boot2docker
+  $brew install docker-machine
+  $brew install docker-swarm
+  $brew install docker-compose
+4. 初始化boot2docker
+  $boot2docker init
+  $boot2docker up
+  $export DOCKER_HOST=tcp://192.168.59.103:2375
+  $export 
+5. 
