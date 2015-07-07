@@ -14,5 +14,5 @@ http://therealmarv.com/blog/how-to-fully-uninstall-the-offical-docker-os-x-insta
   * $export DOCKER_HOST=tcp://192.168.59.103:2376
   * $export DOCKER_CERT_PATH=/Users/chenjunbiao/.boot2docker/certs/boot2docker-vm
   * $export DOCKER_TLS_VERIFY=1
-  * 注意：这个时候运行$docker info是可以正常连接了，但是如果重启机器后会出现认不出证书的问题
+  ** 注意：这个时候运行$docker info是可以正常连接了，但是如果重启机器后会出现认不出证书的问题 **
 5. 
