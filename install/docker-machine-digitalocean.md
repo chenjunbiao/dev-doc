@@ -52,6 +52,11 @@
   --digitalocean-size "1gb"
   --digitalocean-access-token=你的令牌
   testing
+  
+  $ docker-machine create -d digitalocean --digitalocean-region=sgp1 --digitalocean-size=1gb --digitalocean-access-token=7de410aa3b2910056b002ae03e4aaad82e4d6524c473e2a3a728238ec82091d3 testing  
+  
+  尝试了一下，不是所有的region都能自动创建docker的，其中nyc3,sgp1是可以了，sfo1不能自动创建docker，不是什么原因  
+  
 
 
 参考：
