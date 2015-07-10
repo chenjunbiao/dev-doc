@@ -6,39 +6,39 @@
 3. 安装并更新docker-machine  
   $ docker-machine create --help | grep digitalocean
     查看关于在digitalocean创建droplet
-   --digitalocean-access-token 						  Digital Ocean access token [$DIGITALOCEAN_ACCESS_TOKEN]
-   --digitalocean-backups										enable backups for droplet [$DIGITALOCEAN_BACKUPS]
-   --digitalocean-image "ubuntu-14-04-x64"	Digital Ocean Image [$DIGITALOCEAN_IMAGE]
-   --digitalocean-ipv6										  enable ipv6 for droplet [$DIGITALOCEAN_IPV6]
-   --digitalocean-private-networking				enable private networking for droplet [$DIGITALOCEAN_PRIVATE_NETWORKING]
-   --digitalocean-region "nyc3"							Digital Ocean region [$DIGITALOCEAN_REGION]
-   --digitalocean-size "512mb"						  Digital Ocean size [$DIGITALOCEAN_SIZE]
+   --digitalocean-access-token 						  Digital Ocean access token [$DIGITALOCEAN_ACCESS_TOKEN]  
+   --digitalocean-backups										enable backups for droplet [$DIGITALOCEAN_BACKUPS]  
+   --digitalocean-image "ubuntu-14-04-x64"	Digital Ocean Image [$DIGITALOCEAN_IMAGE]  
+   --digitalocean-ipv6										  enable ipv6 for droplet [$DIGITALOCEAN_IPV6]  
+   --digitalocean-private-networking				enable private networking for droplet [$DIGITALOCEAN_PRIVATE_NETWORKING]  
+   --digitalocean-region "nyc3"							Digital Ocean region [$DIGITALOCEAN_REGION]  
+   --digitalocean-size "512mb"						  Digital Ocean size [$DIGITALOCEAN_SIZE]  
   注意：  
     region 选择表： 
-      http://speedtest-sfo1.digitalocean.com/
-      https://developers.digitalocean.com/documentation/v2/
-    size 选择参看： https://developers.digitalocean.com/documentation/v2/#list-all-sizes  
-  {
-      "slug": "1gb",
-      "memory": 1024,
-      "vcpus": 1,
-      "disk": 30,
-      "transfer": 2.0,
-      "price_monthly": 10.0,
-      "price_hourly": 0.01488,
-      "regions": [
-        "nyc2",
-        "sgp1",
-        "ams1",
-        "sfo1",
-        "lon1",
-        "nyc3",
-        "ams3",
-        "ams2",
-        "nyc1"
-      ],
-      "available": true
-    }
+      http://speedtest-sfo1.digitalocean.com/  
+      https://developers.digitalocean.com/documentation/v2/  
+    size 选择参看： https://developers.digitalocean.com/documentation/v2/#list-all-sizes   
+  {  
+      "slug": "1gb",  
+      "memory": 1024,  
+      "vcpus": 1,  
+      "disk": 30,  
+      "transfer": 2.0,  
+      "price_monthly": 10.0,  
+      "price_hourly": 0.01488,  
+      "regions": [  
+        "nyc2",  
+        "sgp1",  
+        "ams1",  
+        "sfo1",  
+        "lon1",  
+        "nyc3",  
+        "ams3",  
+        "ams2",  
+        "nyc1"  
+      ],  
+      "available": true  
+    }  
 
   $ docker-machine create
   -d digitalocean
