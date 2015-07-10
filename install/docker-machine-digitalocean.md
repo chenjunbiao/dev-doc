@@ -4,8 +4,9 @@
 2. https://cloud.digitalocean.com/settings/applications#access-tokens  
   生成一个Personal Access Tokens
 3. 安装并更新docker-machine  
-  $ docker-machine create --help | grep digitalocean
-    查看关于在digitalocean创建droplet
+  $ docker-machine create --help | grep digitalocean  
+    查看关于在digitalocean创建droplet  
+
    --digitalocean-access-token 						  Digital Ocean access token [$DIGITALOCEAN_ACCESS_TOKEN]  
    --digitalocean-backups										enable backups for droplet [$DIGITALOCEAN_BACKUPS]  
    --digitalocean-image "ubuntu-14-04-x64"	Digital Ocean Image [$DIGITALOCEAN_IMAGE]  
@@ -13,11 +14,15 @@
    --digitalocean-private-networking				enable private networking for droplet [$DIGITALOCEAN_PRIVATE_NETWORKING]  
    --digitalocean-region "nyc3"							Digital Ocean region [$DIGITALOCEAN_REGION]  
    --digitalocean-size "512mb"						  Digital Ocean size [$DIGITALOCEAN_SIZE]  
+   
   注意：  
+  
     region 选择表： 
       http://speedtest-sfo1.digitalocean.com/  
       https://developers.digitalocean.com/documentation/v2/  
     size 选择参看： https://developers.digitalocean.com/documentation/v2/#list-all-sizes   
+    
+    
   {  
       "slug": "1gb",  
       "memory": 1024,  
