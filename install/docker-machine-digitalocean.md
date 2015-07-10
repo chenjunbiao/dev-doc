@@ -50,7 +50,6 @@
   --digitalocean-image "ubuntu-14-04-x64"
   --digitalocean-region "sfo1"
   --digitalocean-size "1gb"
-  --digitalocean-backups
   --digitalocean-access-token=你的令牌
   testing
 
