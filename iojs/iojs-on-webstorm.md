@@ -17,7 +17,13 @@
     Preferences | Languages & Frameworks | JavaScript  
     select ECMAScript 6 as a JavaScript version ，并且使用"Prefer Strict mode"  
     Make sure that the external libraries Node.js Globals and io.js core modules  
+4. 配置Babel  
+    $ npm install -g babel  
+    $ which babel  
+    配置Preferences | Tools | File watchers 
     
 4. 参考  
     [io.js already in WebStorm](http://blog.jetbrains.com/webstorm/2015/01/io-js-already-in-webstorm/)  
+    https://babeljs.io/docs/setup/#webstorm  
+
     
