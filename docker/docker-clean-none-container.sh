@@ -1,4 +1,5 @@
 #!/bin/bash
+## 批理删除<none>的容器
 
 for k in $(docker images | grep '<none>')
 do
